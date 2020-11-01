@@ -1,1 +1,4 @@
-console.log("Welcome to the main module")
+import { useZipcodes } from "./address/ZipcodeProvider.js"
+
+useZipcodes()
+
